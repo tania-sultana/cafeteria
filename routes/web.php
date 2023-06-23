@@ -20,7 +20,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('category',CategoryController::class);
+Route::resource('category', App\Http\Controllers\CategoryController::class);
+
+Route::resource('food',App\Http\Controllers\FoodController::class);
+
+
 Route::resource('home',HomeController::class);
 Auth::routes();
 

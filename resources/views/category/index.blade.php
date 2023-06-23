@@ -62,7 +62,7 @@ Add Category
 
       <button class="btn btn-outline-danger">Delete</button>
 
-
+    
 
       </form>
 
